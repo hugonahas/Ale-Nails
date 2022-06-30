@@ -1,0 +1,25 @@
+li  {
+    list-style-type: none;
+    display: flex;
+    padding-left: 30px;
+    }
+ul{ list-style: none;
+    display: flex;
+    
+}
+a{text-decoration: none;
+    color: black; }
+
+h1{ display: flex;
+text-align: center;
+}
+header{
+    background-color: #D98FB1;
+    width: 100%;
+    
+}
+nav ul li a:hover{
+    color: #874E95;
+ }
+.container{background-color: #874E95;
+ }

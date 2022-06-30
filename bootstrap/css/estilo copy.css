@@ -1,0 +1,90 @@
+/*elimino el margen por defecto*/
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+html, body { 
+    width: 100%;
+    height: 100vh;
+}
+/*elimino el formato por defecto*/
+a{text-decoration: none;
+color: black;
+font-weight: bold;
+    }
+/*elimino los punsto de la lista*/
+ul{list-style:none;
+}
+#wrapper{
+    display: grid;
+    grid-template-areas: 
+    "miHeader"
+    "intro"
+    "blog"
+    "miFooter"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 1fr 1fr 50px;
+    grid-row-gap:10px;
+    width: 100%;
+    height: 100vh;
+      
+    }
+
+header{
+    grid-area: miHeader;
+    border: solid 5px red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    font-family: 'reboto';
+    background-color: #D98FB1;
+}
+@font-face {
+    font-family: 'reboto'; 
+    src: url('../assets/font/Roboto-Italic.ttf');
+    
+}   
+nav ul li a:hover{
+    color: #874E95; }
+header img{max-width: 100%;
+    max-height: 100%; }
+header h1{ margin-right: 400px;}
+    
+
+.border{ 
+    border: solid 4px red;
+}
+header nav ul li  { 
+    display: inline-block;
+    margin: 0 20px;
+}
+section#intro{
+    grid-area: intro; 
+    border: solid 5px red;
+    background-image: url("../assets/img/portada3.jpg");
+    background-repeat: no-repeat;
+    background-size:  100% 100vh ;
+    background-position:bottom;
+    width: 100%;
+    height: 500px;
+    transform: scale(1.0, 1.0);
+
+}
+.portada{
+    font-family: 'reboto';
+    color: white;
+    font-size: 45px;
+    text-align: left;
+    margin:50px 0 0 50px;
+    }
+section#blog{ 
+    grid-area: blog;
+    border: solid 5px red;
+
+}
+footer { 
+    grid-area:miFooter;
+    border: solid 5px red;
+}
