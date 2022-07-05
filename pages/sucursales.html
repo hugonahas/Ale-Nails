@@ -15,34 +15,57 @@
      
     </head>
 <body>
-    <header> 
-        <div class="container-fluid">
-            <div class="d-flex flex-row mb-2">
-                <div class="col-6 d-flex justify-content-center">
-                    <img src="../assets/img/logo Ale Nails.png" alt="logo del sitio" class="img-thumbnail">
-                </div>
-                <div class="col 6 d-flex justify-content-center align-items-center">
-                    <nav>
-                        <ul>
-                            <li> <a href="../index.html"> INICIO</a></li>
-                            <li> <a href="servicios.html">SERVICIOS</a></li>
-                            <li> <a href="sucursales.html"> SUCURSALES</a></li>
-                            <li> <a href="promociones.html">PROMOCIONES</a> </li>
-                            <li> <a href="contacto.html">CONTACTO</a></li>
-                        </ul>
+  <header>
+    <div class="container">
+        <div class="row">
+            <div class="d-flex justify-content-center">
+                <div class="d-flex flex-row mb-2 py-2">
+                    <nav class="navbar navbar-light bg-pink-lighten-4">
+                        <a class="navbar-brand" href="index.html">
+                          <img src="../assets/img/logo Ale Nails.png" class="d-inline-block aling-top" alt="Logo Ale-Nails">
+                        </a>
                     </nav>
-                 </div>
+                </div> 
+                <div class="d-flex flex-row mb-2"> 
+                    <nav class="navbar navbar-expand-lg navbar-light bg-pink-lighten-4">
+                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav mr-auto mt-2 mt-md-0 ">
+                            <li class="nav-item active">
+                                <a class="nav-link font-weight-bold" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-weight-bold" href="./servicios.html">SERVICIOS</a>
+                            </li>
+                            <li class="nav-item">
+                                 <a class="nav-link font-weight-bold" href=".sucursales.html">SUCURSALES</a>
+                            </li>
+                            <li class="nav-item">
+                                 <a class="nav-link font-weight-bold" href=".promociones.html">PROMOCIONES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-weight-bold" href=".contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </nav>
+                </div>
+
             </div>
-       </div>
-    </header>
+            
+        </div>
+    </div>
+</header>
         <section class="container">
-            <div class="d-flex justify-content-center mb-2">
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-2">
+            <div class="d-flex justify-content-center py-2 mb-2">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-2">
                     <div id="carouselExampleIndicators" class="carousel slide d-flex justify-content-center" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
                           <div class="carousel-item active">
                             <img class="d-block w-100" src="../assets/img/kapping.jpeg" data-src="holder.js/900x400?theme=social" alt="First slide">
-                          </div>
+                          </div> 
                           <div class="carousel-item">
                             <img class="d-block w-100" src="../assets/img/semipermanente.jpeg" data-src="holder.js/900x400?theme=industrial" alt="Second slide">
                           </div>
@@ -58,15 +81,16 @@
                     </div>
                 </div>
             </div>
+            
         </section>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center ">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex justify-content-center ">
                     <div class="card">
                         <div class="card-body  ">
-                          <h4 class="card-title">Ale Nails</h4>
-                          <h6 class="card-subtitle mb-2 text-muted">Tucumán, Tafi Viejo</h6>
-                          <p class="card-text">
+                          <h4 class="card-title text-center">Ale Nails</h4>
+                          <h6 class="card-subtitle mb-2 text-muted text-center">Tucumán, Tafi Viejo</h6>
+                          <p class="card-text text-center">
                             Calle 13, N° 126, Villa Mariano Moreno, Tafi Viejo.
                           </p>
                           <a href="#!" class="card-link">Ver Ubicacion en Maps</a>
@@ -74,12 +98,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex justify-content-center">
                     <div class="card">
                         <div class="card-body">
-                          <h4 class="card-title">Ale Nails</h4>
-                          <h6 class="card-subtitle mb-2 text-muted">Tucuman, San Miguel de Tucumán</h6>
-                          <p class="card-text">
+                          <h4 class="card-title text-center ">Ale Nails</h4>
+                          <h6 class="card-subtitle mb-2 text-muted text-center">Tucuman, San Miguel de Tucumán</h6>
+                          <p class="card-text text-center">
                             San Martin N° 3346, Capital.
                           </p>
                           <a href="#!" class="card-link">Ver Ubicacion en Maps</a>
@@ -87,12 +111,12 @@
                         </div>
                       </div>
                 </div>
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-3  d-flex justify-content-center">
                     <div class="card">
                         <div class="card-body">
-                          <h4 class="card-title">Ale Nails</h4>
-                          <h6 class="card-subtitle mb-2 text-muted">Chubut</h6>
-                          <p class="card-text">
+                          <h4 class="card-title text-center">Ale Nails</h4>
+                          <h6 class="card-subtitle mb-2 text-muted text-center">Chubut</h6>
+                          <p class="card-text text-center">
                            Moreteau N° 1237, Trelew.
                           </p>
                           <a href="#!" class="card-link">Ver Ubicacion en Maps</a>
@@ -110,40 +134,31 @@
 
     <footer>
       <div class="container">
-        <div class="d-flex justify-content-center align-items-center mb-2">
-            <div class="col-4">
-              <img src="../assets/img/logo Ale Nails.png" alt="logo del footer">
+        <div class="row d-flex align-items-center py-5 justify-content-around">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4"> 
+                <img src="../assets/img/icono nuevo.png" class="rounded float-left" alt="icono">
             </div>
-            <div class="col-4">
-              <ul >
-                  <li><a her="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a her="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a her="#"><i class="fa fa-instagram"></i></a></li>
-                  <li><a her="#"><i class="fa fa-youtube"></i></a></li>
-              </ul>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4"> 
+                <div class="d-flex flex-column" >
+                    <p class="h3">Redes Sociales</p>
+                    <div class="row">
+                        <ul>
+                            <li><a her="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a her="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a her="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a her="#"><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="col-4">
-              <p> copyrigth &copy;2022 Ale-Nails</p>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="">
+                    <p class="text-muted"> copyrigth &copy;2022 Ale-Nails</p>
+                </div>
             </div>
         </div>
-      </div>
+    </div>
     </footer>      
-    
-    
-    
-    
-    
-
 </body>
-    
-    
-    
-    
-
-
-
-
-
-
-    </html>  
+</html>  
  
