@@ -1,20 +1,12 @@
-$pink:#D98FB1;
-$violet: #e1bee7;
-html, body { 
-    width: 100%;
-    height: 100vh;
-}
-ul{ list-style: none;
-    display: flex;
-    &.active {list-style-type: none;
-        display: flex;
-        padding-left: 30px;}
-     }
 
-header {
-    background-color: $pink;
+/*Variables*/
+@import './misc/variables.scss';
+/*Mixins*/
+@import './misc/mixins.scss';
 
-}
-footer {
-    background-color: $violet;
-}
+
+/*Parcial*/
+@import './parcials/header.scss';
+
+
+
