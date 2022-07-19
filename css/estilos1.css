@@ -2,28 +2,31 @@
     margin: 0;
     padding: 0;
 }
-
 a{text-decoration: none;
     color: black; }
-
 h1{ display: flex;
 text-align: center;
 }
 header{
-    background-color: #D98FB1;
-    width: 100%;
-    
+    background-color: #D98FB1;   
 }
 nav ul li a:hover{
     color: white;
- }
- .social{
+}
+.social{
     display: flex;
     justify-content:space-around;
     flex-direction: row; }
 footer { background-color:#e1bee7;
-    }
+}
 
 
 .navbar-light .navbar-toggler {background-color: #e1bee7};
 .navbar-expand-lg {background-color: #e1bee7;}
+.btn-primary {
+    background-color: #D98FB1;
+    border-color:black}
+.jumbotron {
+    padding: ;
+    background-color:#fac1dc  ;
+}
