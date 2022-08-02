@@ -1,0 +1,10 @@
+footer{
+    background-color: $footer-color;
+    margin-top: auto;
+    font-family: $font-principal;
+    ul{
+        display: flex;
+        padding-left: $small;
+    }
+    
+}

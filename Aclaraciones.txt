@@ -1,17 +1,7 @@
-1- Aplique las etiquetas SEO a la solapa "SERVIDOR".
-2- Creo mis carpeta "misc" con los archivos scss "_variables", "_mixins", "_normalize".
-3- Creo mi carpeta "parcial" con los archivos scss "footer" y "header".
-4- Asigno mis variables en el archivo "_variables.scss" de colores, fuentes, espacios, tamaños de fuentes.
-5- importo en mi "main.scss" el archivo "variables.scss" y "header.scss".
-6- En el archivo mixins.scss, armo un mixins para flex, con direccions, justify y align.
-7- Importo en mains.scss el archivo mixins.scss.
-8- En el archivo header.scss incluyo mi mixins flex. asi como tambien asigno las varibles a mi header.
-9- Asigno variables a mi img, h1.
-10- Aplico con extend en mi "nav", de las propiedades de header.
-11- Comente las propiedades del mi css original denominado "estilo.css"
-12- Agregue en el "Servidor.html", el archivo compilado de sass "estilo1.css".
-
-Voy a seguir migrando esta solapa a sass. 
-
-Nota: no encuentro en mi sitio como aplicar un mapa en sass.
+1- En el desarrollo de la pagina web, aplique en su mayoria boostrap, modificado con css (estilos1.css) 
+2- En el index.html migré algo del css a sass, linkeo main.css con el fin de mostrar su aplicación.
+3- En el main.scss linkie los archivos normalizes.scss, variables.sccs y las estructuras parciales del sitio como header, section y footer.
+4- En el head aplique entre otras etiquetas las de SEO en todas las pestañas del sitio web.
+5- Todo el sitio resulta resposivo gracias a la aplicación de boostrap, modificando algunas propiedades con estilos1.css
+6- 
 

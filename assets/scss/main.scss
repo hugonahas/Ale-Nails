@@ -1,12 +1,16 @@
 
-/*Variables*/
+/*Variables del sitio*/
 @import './misc/variables.scss';
-/*Mixins*/
-@import './misc/mixins.scss';
+
+/*Normalizadores*/
+@import './misc/normalizes.scss';
 
 
 /*Parcial*/
 @import './parcials/header.scss';
+@import './parcials/section.scss';
+@import './parcials/footer.scss';   
+
 
 
 

@@ -2,13 +2,22 @@
     margin: 0;
     padding: 0;
 }
+body { display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 a{text-decoration: none;
     color: black; }
 h1{ display: flex;
-text-align: center;
+text-align: center; 
 }
 header{
-    background-color: #D98FB1;   
+    background-color: #D98FB1;
+    font-family: Roboto-Italic;
+}
+@font-face {
+    font-family: Roboto-Italic; 
+    src: url(../assets/font/Roboto-Italic.ttf);
 }
 nav ul li a:hover{
     color: white;
@@ -18,8 +27,12 @@ nav ul li a:hover{
     justify-content:space-around;
     flex-direction: row; }
 footer { background-color:#e1bee7;
+    margin-top: auto; 
+    font-family: Roboto-Italic; 
 }
-
+section {
+    font-family: Roboto-Italic;
+}
 
 .navbar-light .navbar-toggler {background-color: #e1bee7};
 .navbar-expand-lg {background-color: #e1bee7;}
@@ -27,6 +40,10 @@ footer { background-color:#e1bee7;
     background-color: #D98FB1;
     border-color:black}
 .jumbotron {
-    padding: ;
     background-color:#fac1dc  ;
+}
+ul{list-style:none;
+    display: flex;
+    padding-left: 30px;
+
 }
