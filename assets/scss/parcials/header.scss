@@ -1,18 +1,15 @@
 header {
-    
     background-color: $primary;
     font-family: $font-principal;
-    
-
     nav{
         .navbar-toggler{
             background-color: $footer-color;
-
         }
         .nav-link{
             &:hover {color: $text-hover;
         }
         }
+        
     }
 }
 

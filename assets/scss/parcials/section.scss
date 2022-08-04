@@ -2,6 +2,10 @@ section{
     .jumbotron{ background-color: $secondary}
     .btn-primary {
         background-color: $primary;
+        color: $text-color;
         border-color: $text-color;
+        &:hover { background-color:$footer-color;
+        border-color: $text-hover;
+    color:$text-color;}   
     }
-}
+}   
